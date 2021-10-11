@@ -10,7 +10,7 @@ namespace ApiSongs.Models
     {
        
         public int SongId { get; set; }
-        [Key]
+        [Key] 
         [Display(Name = "Nombre de la canción")]
         public string NombreCancion { get; set; }
         [Required]
